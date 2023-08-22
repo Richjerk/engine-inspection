@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Township Business ChatBot`,
+    description: `Empowering township small businesses with real-time support and assistance through an interactive chatbot.`,
+    author: `Puseletso Mafisa`,
+    siteUrl: `https://township-business-chatbot.vercel.app/`, // Update with your chatbot's actual URL
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,19 +20,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `township-business-chatbot`,
+        short_name: `chatbot`,
         start_url: `/`,
-        background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        background_color: `#ffffff`, // Customize as needed
+        // theme_color: `#663399`, // Customize as needed
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/chatbot-icon.png`, // Update with your chatbot's icon
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    // Optional: Add more plugins based on your project's requirements
+    // For example, you can add plugins for APIs, authentication, styling, etc.
   ],
 }
